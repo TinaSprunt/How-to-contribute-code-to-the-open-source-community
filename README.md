@@ -26,7 +26,7 @@
 
 
 
-刚 `fork` 下来的不用，`fetch upstream` 按钮点击后会显示你与官方仓是一致的，不需要更新。就像这样
+刚 `fork` 下来的不用，`fetch upstream` 按钮点击后会显示你与官方仓是一致的，不需要更新。就像这样（或者点击Sync fork也可以）
 
 ![](./image/3.png)
 
