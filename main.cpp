@@ -32,7 +32,7 @@ int main()
   adj[5].push_back(1);
 
   vector<bool> visited(n, false);
-  dfs(0, adj, visited);
+  dfs(0, adj, visited);//注释
 
   return 0;
 }
