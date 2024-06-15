@@ -7,7 +7,7 @@ using namespace std;
 void dfs(int v, vector<vector<int>> &adj, vector<bool> &visited)
 {
   visited[v] = true;
-  cout << "Visited vertex: " << v << endl;
+  cout << "Visited vertex: " << v << endl;//注释
 
   for (int i : adj[v])
   {
@@ -32,7 +32,7 @@ int main()
   adj[5].push_back(1);
 
   vector<bool> visited(n, false);
-  dfs(0, adj, visited);
+  dfs(0, adj, visited);//注释1111
 
   return 0;
 }
