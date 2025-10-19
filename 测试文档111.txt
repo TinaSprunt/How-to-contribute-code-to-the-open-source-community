@@ -1,0 +1,1 @@
+Remove .idea from version control and ignore it
