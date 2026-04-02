@@ -30,6 +30,7 @@ int main()
   adj[3].push_back(4);
   adj[4].push_back(5);
   adj[5].push_back(1);
+  adj[5].push_back(2);
 
   vector<bool> visited(n, false);
   dfs(0, adj, visited);//注释1111
